@@ -1,0 +1,51 @@
+.header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding-top: .4rem;
+	padding-right: .5rem;
+	z-index: 1020;
+	display: flex;
+}
+
+.nav {
+	display: flex;
+}
+
+.nav li {
+	padding: .1rem;
+	margin-right: .18rem;
+}
+
+.nav li a {
+	padding: .15rem 0;
+	font-size: .18rem;
+	font-weight: 700;
+	color: #fff;
+}
+.nav li .line-wrap{
+	position: relative;
+    height: .04rem;
+    overflow: hidden;
+}
+.nav li .line-wrap .line{
+	display: none;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #FFFFFF;
+}
+.nav li.active .line-wrap .line{
+	display: block;
+}
+
+
+
+.logo {
+}
+.logo h1{
+	width: 2.7rem;
+    height: .84rem;
+    background-position: 0 0;
+}

@@ -1,0 +1,78 @@
+@charset "UTF-8";
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td { margin:0; padding:0; }
+body { font-size:12px; color:#666; font-family: Microsoft YaHei,SimSun;}
+fieldset, img { border:0; }/*ie6,7,8会在img上有个边框*/
+img{vertical-align: middle;}
+ol, ul { list-style:none; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+em { font-style:normal; }
+input, button, select, textarea { outline:none; }
+textarea { resize:none; } /*禁用了文本的拖拉，尤其在谷歌下*/
+p{ text-align:justify; text-justify:distribute;text-indent:2em;} /*为了使文本段落左右两边对齐*/
+p{word-wrap:break-word}
+a {text-decoration:none; }
+i{display: inline-block;}
+span{display: inline-block;}
+/*a:hover { color: #f60; text-decoration:none; }*/
+address,cite,code,em,th {font-weight:normal; font-style:normal;}
+a{color:inherit;text-decoration:none;display: inline-block;}
+/*a:link{color:#009;}*/
+/*a:visited{color:#800080;}*/
+a:hover,a:active,a:focus{text-decoration:underline;}
+table { border-collapse:collapse; border-spacing:0; }
+/*应该把自己喜欢的下拉框，表格，之类*/
+/*一些自己平时喜欢使用的式样*/
+.wrap{width:1180px;margin:0 auto;}
+.clearfix:after{
+    content: " ";
+    display: block;
+    height: 0px;
+    clear:both;
+}
+.fL{
+	float: left;
+}
+.fR{
+	float: right;
+}
+.home-page{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.icon{
+	display: inline-block;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	background-image:url(../img/sprite.png);
+	background-size: 19.2rem;
+	background-position: -99.99emrem -99.99emrem;
+	text-indent: -9999em;
+	overflow: hidden;
+}
+img,ul,li{
+	display: block;
+}
+img{
+	max-width: 100%;
+	vertical-align: middle;
+	outline: 0;
+} 
+a, a:focus, a:hover {
+    text-decoration: none;
+}
+p{
+	text-indent: 0em;
+}
+.active{
+	display: block!important;
+	
+}
+.active>img{
+	opacity: 1!important;
+}
+.maxWH{
+	width: 100%;
+	height: 100%;
+}

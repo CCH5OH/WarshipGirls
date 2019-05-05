@@ -1,0 +1,147 @@
+
+#home .plane-left {
+	position: absolute;
+	left: .92rem;
+	top: .62rem;
+	width: 1.92rem;
+}
+
+#home .plane-right {
+	position: absolute;
+	top: 7.3rem;
+	right: .77rem;
+	width: 1.17rem;
+}
+
+#home .section-img {
+	height: 100%;
+	
+}
+
+#home .section-img>img {
+	width: 17rem;
+	position: absolute;
+	left: -.5rem;
+	top: -.14rem;
+	
+}
+
+#home .section-right-bg {
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 6.65rem;
+}
+
+#home .section-right-bg>img {
+	float: right;
+}
+
+#home .section-right {
+	width: 9rem;
+	position: absolute;
+	top: 1.4rem;
+	right: 0;
+	z-index: 99;
+}
+
+#home .section-right-inner {
+	position: absolute;
+	top: .28rem;
+	right: .24rem;
+	width: 5.35rem;
+	color: #fff;
+}
+
+#home .video-poster {}
+
+#home .video-poster .pull-right {
+	width: 3.8rem;
+	height: 2.14rem;
+	overflow: hidden;
+	float: right;
+}
+
+#home .download {
+	margin-top: .32rem;
+}
+
+#home .download-title {
+	position: relative;
+	padding-left: .2rem;
+	margin-left: 1.65rem;
+	font-size: .18rem;
+}
+
+#home .download-title .icon-box {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: .12rem;
+	height: .2rem;
+	margin-top: -.1rem;
+	overflow: hidden;
+}
+
+#home .download-title .icon-box i {
+	display: block;
+	width: .12rem;
+	height: .2rem;
+	background-position: -2.8rem 0;
+	animation: animated-down 1.2s linear infinite;
+	-webkit-animation: animated-down 1.2s linear infinite;
+}
+
+@keyframes animated-down {
+	0% {
+		transform: translateY(-100%)
+	}
+	100% {
+		transform: translateY(100%)
+	}
+}
+
+#home .download-con {
+	margin-top: .4rem;
+}
+
+#home .download-code {
+	width: 2.35rem;
+}
+
+#home .download-btns {
+	width: 2rem;
+	margin-left: .15rem;
+}
+
+#home .download-btns>li {
+	margin-bottom: .1rem;
+}
+
+#home .download-btns>li>a {
+	display: block;
+	height: .62rem;
+	background-size: 2rem;
+	background-image: url(../img/download-buttons.png);
+	background-repeat: no-repeat;
+}
+
+#home .download-btns .ios>a {
+	background-position: 0 0;
+}
+
+#home .download-btns .android>a {
+	background-position: 0 -.72rem;
+}
+
+#home .download-btns .tap>a {
+	background-position: 0 -1.44rem;
+}
+
+#home .game-text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 4.16rem;
+}

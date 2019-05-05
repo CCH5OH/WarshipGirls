@@ -1,0 +1,288 @@
+/*背景角色*/
+
+#service .section-img {
+	height: 100%;
+}
+
+#service .section-img>img {
+	width: 12.3rem;
+	position: absolute;
+	left: -.5rem;
+	top: -.5rem;
+}
+
+
+/*头部背景*/
+
+#service .section-right-bg {
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 6.65rem;
+}
+
+#service .section-right-bg>img {
+	float: right;
+}
+
+
+/*客服*/
+
+#service .section-right {
+	width: 7.7rem;
+	position: absolute;
+	top: 1.4rem;
+	right: 0;
+	z-index: 1021;
+}
+
+#service .section-right #service_box {
+	height: 7.35rem;
+	margin-top: .75rem;
+	padding-left: .75rem;
+	padding-top: .62rem;
+	padding-right: .3rem;
+	background-size: 100%!important;
+	background-repeat: no-repeat;
+	background-image: url(../img/section-right-service.png);
+}
+
+#service .section-right #service_wrapper {
+	height: 6rem;
+	font-size: .18rem;
+	overflow: hidden;
+}
+
+#service .section-right .service-tabs {
+	margin-bottom: .25rem;
+}
+
+#service .section-right .service-tabs>li {
+	margin: 0;
+	padding: 0;
+	margin-right: .5rem;
+	vertical-align: baseline;
+}
+
+#service .section-right .service-tabs li a {
+	margin: 0;
+	padding: 0;
+	display: block;
+	font-weight: 500;
+	font-size: .18rem;
+	margin-bottom: .1em;
+}
+
+#service .section-right .tab-content {
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	color: #fff;
+}
+
+#service .section-right .tab-content .tab-pane {
+	display: none;
+}
+
+#service .tab-content #service_info {
+	font-size: .16rem;
+	line-height: .36rem;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+#service .tab-content #service_info .icon {
+	margin-right: .1rem;
+}
+
+#service .tab-content #service_info p .icon-email {
+	width: .24rem;
+	height: .18rem;
+	background-position: -13.72rem 0;
+}
+
+#service .tab-content #service_info p .icon-time {
+	width: .24rem;
+	height: .24rem;
+	background-position: -13.72rem -.25rem;
+}
+
+#service .tab-content #service_info .back-format {
+	margin-top: .15rem;
+	margin-bottom: .15rem;
+}
+
+#service .tab-content #service_info .back-format img {
+	width: 2.9rem;
+}
+
+#service .tab-content #service_info .back-format img:first-child {
+	margin-right: .3rem;
+}
+
+#service .tab-content #service_info p .icon-password {
+	width: .28rem;
+	height: .28rem;
+	background-position: -13.72rem -.6rem;
+}
+
+
+/*常见问题*/
+
+#service .tab-content #QA_list {
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+#service .tab-content #QA_list .list-item {
+	margin-bottom: .35rem;
+}
+
+#service .tab-content #QA_list .list-item dt {
+	font-size: .16rem;
+	line-height: .36rem;
+	font-weight: 700;
+}
+
+#service .tab-content #QA_list .list-item dd {
+	height: .48rem;
+	line-height: .24rem;
+	overflow: hidden;
+	font-size: .14rem;
+}
+
+#service .tab-content #QA_list .icon-question {
+	width: .24rem;
+	height: .24rem;
+	margin-right: .1rem;
+	background-position: -14.03rem 0;
+}
+
+#service .tab-content #question_page {
+	position: absolute;
+	left: 0;
+	bottom: .5rem;
+	width: 100%;
+	text-align: center;
+}
+
+#service .tab-content #question_page .pagination {
+	display: block;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+#service .tab-content #question_page .pagination a {
+	position: relative;
+	display: inline-block;
+	width: .25rem;
+	height: .25rem;
+	font-size: .18rem;
+	color: #3a9ac5;
+	border-radius: 100%;
+	text-align: center;
+	font-weight: 700;
+}
+
+#service .tab-content #question_page .pagination .next,
+#service .tab-content #question_page .pagination .pre,
+#service .tab-content #question_page .pagination .current {
+	color: #0678ad;
+}
+
+#service .tab-content #question_page .pagination .current {
+	background-color: #fff;
+}
+
+
+/*海外充值*/
+/*pay-form*/
+#service .tab-content form {
+	display: block;
+	padding-top: .2rem;
+}
+
+#service .tab-content form .form-group {
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	font-size: .22rem;
+	margin-bottom: .1rem;
+}
+
+#service .tab-content form .form-group .col-left {
+	width: 1.8rem;
+	margin-right: .3rem;
+	margin-bottom: 0;
+	line-height: .52rem;
+	text-align: right;
+	font-weight: 700;
+	float: left;
+	display: block;
+}
+
+#service .tab-content form .form-group .col-right {
+	width: 4.4rem;
+	float: left;
+	display: block;
+}
+#service .tab-content form .form-group input{
+	border-radius: .1rem;
+    overflow: hidden;
+}
+#service .tab-content form .form-group .form-control {
+	box-sizing: border-box;
+	width: 100%;
+	height: .52rem;
+	outline: 0;
+	padding: .06rem .24rem;
+	line-height: .4rem;
+	font-size: .22rem;
+	background-color: #1c8bbb;
+	border: none;
+	color: #fff;
+	display: block;
+	background-image: none;
+	
+}
+
+#service .tab-content form .form-group .validate-box {
+	position: relative;
+	padding-right: 1.1rem;
+}
+
+#service .tab-content form .form-group .validate-box .form-control {
+	border-radius: .1rem;
+	overflow: hidden;
+}
+
+#service .tab-content form .form-group .validate-box .vcodeimg {
+	position: absolute;
+	display: block;
+	width: .97rem;
+	height: .46rem;
+	right: 0;
+	top: 50%;
+	margin-top: -.23rem;
+}
+
+#service .tab-content form .form-group .form-control.submit-btn {
+	width: 3.1rem;
+	height: .7rem;
+	margin-top: .25rem;
+	margin-left: 1.85rem;
+	font-size: .36rem;
+	color: #0678ad;
+	text-align: center;
+	background-color: #fff;
+	cursor: pointer;
+	border-radius: .1rem;
+}
+/*奖励兑换*/
+#service .tab-content form#exchangeForm .col-left{
+	width: 1.25rem;
+}

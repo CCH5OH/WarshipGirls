@@ -1,0 +1,148 @@
+/*背景角色*/
+
+#acgn .section-img {
+	height: 100%;
+}
+
+#acgn .section-img>img {
+	width: 12.88rem;
+	position: absolute;
+	left: .62rem;
+	top: -.86rem;
+}
+
+
+/*火箭*/
+
+#acgn .rocket {
+	position: absolute;
+	left: .86rem;
+	top: 2.3rem;
+	width: 1.5rem;
+	height: 1.3rem;
+	background-position: -7.7rem .01rem;
+}
+
+
+/*同人*/
+
+#acgn .section-right {
+	width: 10.62rem;
+	margin-top: .5rem;
+	position: absolute;
+	top: 1.4rem;
+	right: 0;
+	z-index: 1021;
+}
+
+#acgn .section-right .pet {
+	position: absolute;
+	left: 4.69rem;
+	top: 0;
+	width: 2.29rem;
+	height: 1.66rem;
+	background-position: -9.27rem .01rem;
+}
+
+#acgn .section-right .nav-acg {
+	margin-top: .66rem;
+	margin-left: 2.58rem;
+	margin-bottom: .45rem;
+}
+
+#acgn .section-right .nav-acg li {
+	padding: 0;
+	margin: 0;
+	margin-right: .66rem;
+}
+
+#acgn .section-right .nav-acg li>a {
+	padding: 0;
+	margin: 0;
+	color: #0678ad;
+	font-size: .24rem;
+	font-weight: 400;
+	display: block;
+	padding-bottom: .09rem;
+}
+
+#acgn .section-right .nav-acg li .line-wrap {
+	position: relative;
+	height: .04rem;
+	overflow: hidden;
+}
+
+#acgn .section-right .nav-acg li .line-wrap .line {
+	background-color: #0678ad;
+}
+
+#acgn .section-right .nav-acg a:focus,
+#acgn .section-right .nav-acg a:hover {
+	color: #23527c;
+}
+
+
+/*同人内容*/
+
+#acgn .section-right .acg-content {
+	position: relative;
+	z-index: 1021;
+}
+
+#acgn .acg-content .acgn-list {
+	width: 10.21rem;
+	margin-left: -.1rem;
+	margin-right: -.1rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+#acgn .acg-content .acgn-list .list-item {
+	width: 31.333333333%;
+	padding-left: .1rem;
+	padding-right: .1rem;
+	margin-bottom: .28rem;
+}
+
+#acgn .acg-content .acgn-list .list-item a {
+	height: 2.1rem;
+	padding-top: .29rem;
+	padding-left: .24rem;
+	padding-right: .23rem;
+	background-image: url(../img/acgn-item-bg.png);
+	background-size: 100%!important;
+	background-repeat: no-repeat;
+}
+
+#acgn .acg-content .acgn-list .list-item a .acg-img {
+	height: 1.58rem;
+}
+
+#acgn .acg-content .pagination {
+	position: absolute;
+	top: -.85rem;
+	right: .52rem;
+}
+
+#acgn .acg-content .pagination a {
+	position: relative;
+	display: inline-block;
+	width: .25rem;
+	height: .25rem;
+	font-size: .18rem;
+	color: #3a9ac5;
+	border-radius: 100%;
+	text-align: center;
+	font-weight: 700;
+}
+
+#acgn .acg-content .pagination .next,
+#acgn .acg-content .pagination .pre,
+#acgn .acg-content .pagination .current {
+	color: #0678ad;
+}
+
+#acgn .acg-content .pagination .current {
+	background-color: #fff;
+}

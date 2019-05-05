@@ -1,0 +1,164 @@
+/*背景角色*/
+
+#role .section-img {
+	height: 100%;
+}
+
+#role .section-img>img {
+	/*width: 11.47rem;*/
+	position: absolute;
+	left:0rem;
+	top: 0rem;
+}
+
+
+/*角色信息*/
+#role #role_pic{
+	/*width: 11rem;*/
+	max-width: 18rem;
+}
+#role #role_info {
+	position: absolute;
+	left: 6.16rem;
+	top: 4.9rem;
+	width: 3.52rem;
+	height: 3rem;
+	background-repeat: no-repeat;
+	background-size: 100%!important;
+	background-image: url(../img/role-info.png);
+	z-index: 99;
+	color: #0678ad;
+}
+
+#role #role_info .role-info-inner {
+	margin-top: .2rem;
+	margin-left: .24rem;
+	margin-right: .26rem;
+}
+
+#role #role_info .star-level {
+	margin-right: -.02rem;
+	margin-bottom: .05rem;
+	text-align: right;
+}
+
+#role #role_info .star-level .star {
+	width: .18rem;
+	height: .18rem;
+	background-position: -7.4rem -.3rem;
+	margin-left: -.02rem;
+	margin-right: .02rem;
+}
+
+#role #role_info .category {
+	font-size: .2rem;
+	text-align: right;
+	vertical-align: baseline;
+}
+
+#role #role_info .category>em {
+	font-size: .3rem;
+	font-weight: 700;
+}
+
+#role #role_info .title {
+	font-weight: 400;
+	font-size: .2rem;
+	text-align: right;
+}
+
+#role #role_info .text {
+	height: 1.4rem;
+	background-size: 100% !important;
+	background-repeat: no-repeat;
+	background-image: url(../img/role-info-border.png);
+	font-size: .14rem;
+	overflow: hidden;
+	padding: .3rem .12rem .2rem;
+}
+
+
+/*角色栏*/
+
+#role .section-right {
+	padding-top: 1rem;
+	position: absolute;
+	top: 1.4rem;
+	right: 0;
+	z-index: 1021;
+}
+
+#role .section-right .plane-icon {
+	display: block;
+	position: absolute;
+	left: 2.77rem;
+	top: .2rem;
+	width: 1.58rem;
+	height: 1.14rem;
+	background-position: -5.72rem 0;
+}
+
+#role .section-right #role_list {
+	width: 9.21rem;
+	height: 5.15rem;
+	padding-top: .53rem;
+	background-image: url(../img/section-right-role.png);
+	background-size: 100% !important;
+	background-repeat: no-repeat;
+}
+
+#role #role_list .list-wrapper {
+	position: relative;
+	width: 8.3rem;
+	height: 4rem;
+	margin-left: .7rem;
+	overflow: auto;
+}
+
+#role #role_list .list-wrapper .list-wrapper-box {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	/*margin-right: .5rem;*/
+	padding-top: .06rem;
+}
+
+#role #role_list .list-wrapper .list-wrapper-box ul {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+#role #role_list .list-wrapper .list-wrapper-box ul li {
+	width: 23%;
+	margin-right: .15rem;
+	margin-bottom: .28rem;
+}
+
+#role #role_list .list-wrapper .list-wrapper-box ul li a {
+	padding: .12rem;
+	background-image: url(../img/ship_head_k.png);
+	background-size: 100% !important;
+	background-repeat: no-repeat;
+	display: inline-block!important;
+}
+
+#role #role_list .list-wrapper .list-wrapper-box ul li a.active {
+	background-image: url(../img/ship_head_k_light.png);
+}
+/*#role #role_list .list-wrapper .list-wrapper-box ul li a img{
+	opacity: 0.65;
+}
+#role #role_list .list-wrapper .list-wrapper-box ul li a.active img{
+	opacity: 1;
+}*/
+#role #role_list .list-wrapper .list-wrapper-box ul li a img{
+	opacity: 0.65;
+}
+#role #role_list .list-wrapper .list-wrapper-box ul li a:focus img,
+#role #role_list .list-wrapper .list-wrapper-box ul li a:hover img{
+	opacity: 1;
+}
+
